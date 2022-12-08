@@ -80,8 +80,7 @@
           },
           "defaultConfiguration": "development",
           "options": {
-            "browserTarget": "searchapp:build",
-            "proxyConfig":  "src/proxy.config.json"
+            "browserTarget": "searchapp:build"
           }
         },
         "extract-i18n": {
