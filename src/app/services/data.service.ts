@@ -22,7 +22,7 @@ export class DataService {
     let params = new HttpParams();
         params = params.set("Query", id.toString())
   
-        return this.http.get('/TruProxyAPI/rest/Companies/v1/Search',{params,headers: httpOptions.headers},);
+        return this.http.get('https://angular-exercise.trunarrative.cloud/TruProxyAPI/rest/Companies/v1/Search',{params,headers: httpOptions.headers},);
            
           
       }
@@ -40,7 +40,7 @@ export class DataService {
         let params = new HttpParams();
             params = params.set("CompanyNumber", id.toString())
       
-            return this.http.get('/TruProxyAPI/rest/Companies/v1/Officers',{params,headers: httpOptions.headers},);
+            return this.http.get('https://angular-exercise.trunarrative.cloud/TruProxyAPI/rest/Companies/v1/Officers',{params,headers: httpOptions.headers},);
                
               
           }
